@@ -1,5 +1,6 @@
+import Logo from "./Logo";
+
 function Header() {
-    
   return (
     <div className="header-top">
       <div className="header">
@@ -8,11 +9,7 @@ function Header() {
             <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
               <div className="full">
                 <div className="center-desk">
-                  <div className="logo">
-                    <a href="index.html">
-                      <img src="src/assets/images/logo.png" alt="#" />
-                    </a>
-                  </div>
+                  <Logo src={"src/assets/images/logo.png"} />
                 </div>
               </div>
             </div>
